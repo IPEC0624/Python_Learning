@@ -1,3 +1,7 @@
+from student_model import Student
+from comodity_model import Comodity
+from datetime import datetime
+import matplotlib.pyplot as plt
 print("hello")
 
 apple_price = 100
@@ -162,3 +166,19 @@ x = add_sub_numbers(100, 10)
 print(added)
 print(subed)
 print(x)
+
+student1 = Student("斉藤壮馬", 82, 74, 60, 92, 72)
+print(f"{student1.name}産の平均点： {student1.avg_score()}")
+
+comodity1 = Comodity("A0001", "半袖クールTシャツ", 5000, 2250)
+print(f"{comodity1.name}の原価率は{comodity1.cost_ratio()}")
+comodity1 = Comodity("A0001", "半袖クールTシャツ", 6000, 2250)
+print(f"{comodity1.name}の原価率は{comodity1.cost_ratio()}")
+
+t = datetime.today()
+print(t)
+
+label = ["A", "B", "C", "D"]
+num = [20, 17, 25, 9]
+plt.bar(label, num)
+plt.savefig('./bar.png')
