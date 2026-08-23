@@ -1,0 +1,22 @@
+[project]
+name = "my-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "IPEC0624", email = "toya2535385@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.14.1",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.2,<2",
+    "pydantic-settings>=2.15.0",
+]
+
+[project.scripts]
+my-mcp-server = "my_mcp_server:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
