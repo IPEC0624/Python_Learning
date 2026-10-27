@@ -1,6 +1,9 @@
 # MCP server学習　
 link: https://youtu.be/6bQj2o5Ul8M?si=xM4WaQO3Qs51z39K
+    自作MCPサーバの作り方 〜 Python編 〜 AIをもっと便利に使うために！
+
     : https://youtu.be/VgH1GKSCXJQ?si=yUwUK8Q-wfbCYflW
+    【Pythonの新定番】uvでパッケージ管理をしよう！〜初心者でも分かる！〜仮想環境を簡単に構築
 
 ## FastAPI
 FastAPIの3大特長
