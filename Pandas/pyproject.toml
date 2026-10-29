@@ -1,0 +1,19 @@
+[project]
+name = "pandas-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "IPEC0624", email = "toya2535385@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+pandas-practice = "pandas_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
